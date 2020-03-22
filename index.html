@@ -11,6 +11,13 @@
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+		<script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script> 
+		
+		<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' /> 
+		<script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script> 
+		<link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+
 </head>
 <body>
 	<div class="se-pre-con">
@@ -128,6 +135,17 @@
 								<div class="row">
 									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 										<div class="innermenu">
+		<div id="gallery" style="display:none;">
+		
+			<img alt="Image 1 Title" src="img/omca-broj-1200.png"
+				data-image="img/omca-broj-1200.png"
+				data-description="Image 1 Description">
+			
+			<img alt="Image 2 Title" src="img/omca-broj-1200.png"
+				data-image="img/omca-broj-1200.png"
+				data-description="Image 2 Description">
+		
+		</div>
 											<p><img src="img/omca-broj-1200.png" alt="" class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s"></p>
 
 											<span class="item item-1">broj 1234</span>
@@ -651,7 +669,18 @@
   <!--   <section id="map">
 	 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.7952317252393!2d20.478993315366512!3d44.78497978652713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7066c8463fa3%3A0xf7b5b9118e59e51!2sDiwali+Indian+Restaurant!5e0!3m2!1sen!2srs!4v1532925115071" width="1500" height="1080" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section> -->
-
+	<script type="text/javascript"> 
+			jQuery(document).ready(function(){ 
+			jQuery("#gallery").unitegallery({
+	tile_enable_textpanel:true,
+	tile_textpanel_bg_color: "#3A85E0",
+	tile_textpanel_bg_opacity:0.8,
+	tile_textpanel_title_color: "yellow",
+	tile_textpanel_title_text_align: "center",
+	tiles_type: "justified",
+});
+		
+	</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/fixed-responsive-nav.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>

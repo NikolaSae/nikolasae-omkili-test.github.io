@@ -92,12 +92,12 @@ header.sticky .nav-collapse a:hover{
 	list-style: none;
 }
 
-img {
+/*img {
   width: 100%;
   height: auto;
   display: block;
   object-fit: cover;
-}
+}*/
 
 .hexagon-gallery {
   margin: auto;

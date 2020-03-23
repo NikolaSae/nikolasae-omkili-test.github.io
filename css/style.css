@@ -108,6 +108,9 @@ img {
   grid-auto-rows: 95px;
   grid-gap: 10px;
   /*padding-bottom: 5px;*/
+  height: 450px;
+  /*background-color: blue;*/
+  padding-top: 25px;
 }
 
 .hex {
@@ -414,7 +417,7 @@ div.hex div img:hover {
   #veggie{
     background-color: grey;
     /*background-color: #FFEF30;*/
-    padding: 65px 0 85px;
+    /*padding: 65px 0 85px;*/
     color: #333333;
   }
 /*  #special{
